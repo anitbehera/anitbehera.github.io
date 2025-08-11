@@ -32,7 +32,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Downloads</a>
+              <a class="nav-link" href="#">Feedbacks</a>
             </li>
           </ul>
         </div>
@@ -40,14 +40,33 @@
     </nav>
 
     <div class="container my-5">
-      <h1>Hello, world!</h1>
-      <div class="col-lg-8 px-0">
-        <p class="fs-5">You've successfully loaded up the Bootstrap starter example. It includes <a href="https://getbootstrap.com/">Bootstrap 5</a> via the <a href="https://www.jsdelivr.com/package/npm/bootstrap">jsDelivr CDN</a> and includes an additional CSS and JS file for your own code.</p>
-        <p>Feel free to download or copy-and-paste any parts of this example.</p>
+      <h1>Hello, squad!</h1>
+      <div class="col-lg-12 px-0">
+        <p class="fs-5">
+          I've reached out to PUBG developers about the loading smoke screen issue through both <a href="https://www.reddit.com/r/PUBATTLEGROUNDS/comments/1mhdifz/smoke_screen_loading_issue_after_long_match_ends/" target="_blank">Reddit posts</a> and official PUBG support forums(Ticket #19499453). However, since there's no communication for an official fix, I took matters into my own hands.
+        </p>
+
+        <p class="fs-5">I've developed an application that resolves the loading smoke screen problem. You can see how it works in the <a href="https://www.youtube.com/watch?v=VJml67jg7-0" target="_blank">demo video</a> provided.</p>
 
         <hr class="col-1 my-4">
 
-        <a href="https://github.com/anitbehera/pubg-fireman/releases" class="btn btn-primary download-fireman">Download</a>
+        <p class="fs-5"><span class="badge bg-secondary">How it works ?</span></p>
+        <p>The app automatically detects and closes inactive connections to PUBG lobby servers, which eliminates the smoke screen loading issue.</p>
+
+        <p class="fs-5"><span class="badge bg-secondary">Download & Requirements</span></p>
+        <p>The application is available for free download and use.</p>
+        <p>System Requirements: <a href="https://learn.microsoft.com/en-gb/windows/apps/windows-app-sdk/downloads" target="_blank">Windows App Runtime</a> must be installed on your system.</p>
+
+        <a href="https://github.com/anitbehera/pubg-fireman/releases" class="btn btn-primary download-fireman" target="_blank">Download PUBG Fireman</a>
+        <br /><br />
+        <h1>How to use?</h1>
+        <ul>
+          <li><span class="badge bg-secondary">Installation:</span> Download the <span class="fst-italic">PUBGFireman.zip</span> file from above link and extract it. Run 'PUBGFireman'.</li>
+          <li><span class="badge bg-secondary">Keep Running:</span> Leave the application active throughout your PUBG gaming session (you can minimize it to run in the background).</li>
+          <li><span class="badge bg-secondary">Fix Smoke Screen:</span> Before clicking <span class="badge bg-warning text-dark">Exit to Lobby</span> in PUBG, press the <span class="badge bg-success">Extinguisher</span> button located in the bottom-left corner of the app.</li>
+          <li><span class="badge bg-secondary">Timing Note:</span> While you can use the Extinguisher button at any time during the loading smoke screen, it's best to use it just before Exiting to Lobby since the effect takes 3-4 seconds to process.</li>
+        </ul>
+        <img src="PUBGFireman/assets/PUBG_Fireman_Extinguisher.png" class="img-thumbnail" alt="PUBG Fireman Extinguisher">
       </div>
     </div>
 
