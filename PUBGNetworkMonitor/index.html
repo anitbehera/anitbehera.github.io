@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PUBG Network Monitor</title>
+    <link rel="shortcut icon" href="/PUBGNetworkMonitor/assets/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W5PHTPF5');</script>
+    <!-- End Google Tag Manager -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5PHTPF5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">PUBG Network Monitor</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.reddit.com/r/PUBATTLEGROUNDS/comments/1mn8zsx/fixed_smoke_screen_loading_issue_after_long_match/" target="_blank">Feedbacks</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <h1>Hello, squad!</h1>
+      <div class="col-lg-12 px-0">
+        <p class="fs-5">
+          I've reached out to PUBG developers about the loading smoke screen issue through both <a href="https://www.reddit.com/r/PUBATTLEGROUNDS/comments/1mhdifz/smoke_screen_loading_issue_after_long_match_ends/" target="_blank">Reddit posts</a> and official PUBG support forums(Ticket #19499453). However, since there's no communication for an official fix, I took matters into my own hands.
+        </p>
+
+        <p class="fs-5">I've developed an application that resolves the loading smoke screen problem. You can see how it works in the <a href="https://www.youtube.com/watch?v=VJml67jg7-0" target="_blank">demo video</a> provided.</p>
+
+        <hr class="col-1 my-4">
+
+        <p class="fs-5"><span class="badge bg-secondary">How it works ?</span></p>
+        <p>The app automatically detects and closes inactive connections to PUBG lobby servers, which eliminates the smoke screen loading issue.</p>
+
+        <p class="fs-5"><span class="badge bg-secondary">Download & Requirements</span></p>
+        <p>This software is distributed as open-source and is freely available for download and use. <a href="https://github.com/anitbehera/pubg-network-monitor" target="_blank">View Source Code</a></p>
+        <p>System Requirements: <a href="https://learn.microsoft.com/en-gb/windows/apps/windows-app-sdk/downloads" target="_blank">Windows App Runtime</a> must be installed on your system.</p>
+
+        <a href="https://github.com/anitbehera/pubg-network-monitor/releases/latest" class="btn btn-primary download-pubg-network-monitor" target="_blank">Download PUBG Network Monitor</a>
+        <br /><br />
+        <h1>How to use?</h1>
+        <ul>
+          <li><span class="badge bg-secondary">Installation:</span> Download the <span class="fst-italic">PUBGNetworkMonitor.zip</span> file from above link and extract it. Run 'PUBGNetworkMonitor'.</li>
+          <li><span class="badge bg-secondary">Keep Running:</span> Leave the application active throughout your PUBG gaming session (you can minimize it to run in the background).</li>
+          <li><span class="badge bg-success">Fix Smoke Screen:</span> Before clicking <span class="badge bg-warning text-dark">Exit to Lobby</span> in PUBG, press the <span class="badge bg-success">Network Gear</span> button located in the bottom-left corner of PUBG.</li>
+          <li><span class="badge bg-secondary">Timing Note:</span> While you can use the Network Gear button at any time during the loading smoke screen, it's best to use it just before Exiting to Lobby since the effect takes 3-4 seconds to process.</li>
+        </ul>
+        <img src="/PUBGNetworkMonitor/assets/FIXLobbyButton.png" class="img-thumbnail" alt="PUBG Network Monitor">
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
