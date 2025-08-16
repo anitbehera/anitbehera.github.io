@@ -1,7 +1,7 @@
 const basePath = '/PUBGNetworkMonitor';
 const routes = {
-  '/': `${basePath}/pages/dashboard.html`,
-  '/investigate': `${basePath}/pages/home.html`,
+  '/': `${basePath}/pages/home.html`,
+  '/investigate': `${basePath}/pages/dashboard.html`,
   '/contact': `${basePath}/pages/contact.html`
 };
 
