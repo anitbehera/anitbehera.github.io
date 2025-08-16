@@ -1,6 +1,6 @@
 const basePath = '/PUBGNetworkMonitor';
 const routes = {
-  '/': `${basePath}/pages/investigate.html`,
+  '/': `${basePath}/pages/home.html`,
   '/investigate': `${basePath}/pages/investigate.html`,
   '/contact': `${basePath}/pages/contact.html`
 };
@@ -14,7 +14,7 @@ async function router() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     document.getElementById('app').innerHTML = await res.text();
   } catch (err) {
-    document.getElementById('app').innerHTML = '<h1>⚠️ Error loading page</h1>';
+    document.getElementById('app').innerHTML = '<p class="fs-5">⚠️ Error loading page</p>';
     console.error(err);
   }
 
