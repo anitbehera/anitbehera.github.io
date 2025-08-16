@@ -7,7 +7,7 @@ const routes = {
 
 async function router() {
   const path = location.hash.slice(1) || '/';
-  const htmlPath = routes[path] || `${basePath}/pages/404.html`;
+  const htmlPath = routes[path];
 
   try {
     const res = await fetch(htmlPath);
