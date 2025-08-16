@@ -1,8 +1,7 @@
 const basePath = '/PUBGNetworkMonitor';
 const routes = {
   '/': `${basePath}/pages/home.html`,
-  '/investigate': `${basePath}/pages/troubleshoot.html`,
-  '/contact': `${basePath}/pages/contact.html`
+  '/investigate': `${basePath}/pages/troubleshoot.html`
 };
 
 async function router() {
